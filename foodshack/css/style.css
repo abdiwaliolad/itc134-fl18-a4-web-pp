@@ -1,0 +1,267 @@
+/* Our CSS Styles*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+	background-color: coral;
+}
+
+
+
+body{
+    font-size:110%;
+    line-height:1.5;
+    font-family:"Verdana", "Helvetica", sans-serif;
+     background-image:url(../images/.jpg);
+	
+}
+
+
+.home div#wrapper{
+    width:940px;
+    margin: 150px auto 20px auto;
+    background:#fff;
+}
+
+.inner div#wrapper{
+    width:940px;
+    margin: 200px auto 20px auto;
+    background:#fff;
+}
+
+#logo {
+    margin:0 auto;
+    width:200px;
+}
+
+
+header{
+width:100%;
+background:rgba( 255, 255, 255, .95);
+}
+
+nav#primary {
+    height:50px;
+    line-height:50px; 
+    background:#005A8E;
+}
+
+
+nav#primary ul{
+    width:1100px;
+    margin:0 auto;
+}
+
+nav#primary li {
+    float:left;
+    width:20%;
+    list-style-type:none;
+    text-align:center;
+}
+
+.home nav#primary li:nth-child(1),
+.about nav#primary li:nth-child(2)
+.tours nav#primary li:nth-child(3)
+{
+    background:red;
+}
+
+nav#primary a { 
+    color:#fff;
+    text-decoration:none;
+    display:block;
+}
+
+nav#primary a:hover {
+    background:green;
+}
+
+
+#banner {
+    background:pink;
+
+}
+
+
+main {
+    width: 90%;
+	margin: auto
+}
+
+.pizcontent{
+	width: 50%
+}
+
+.saladcontent{
+	width: 50%;
+}
+.burgercon{
+	width: 50%;
+}
+
+
+#pizza{
+	width: 250px;
+	float:right;
+	border:1px solid purple;
+	
+}
+
+#salad{
+	width:250px;
+	float:right;
+	border:1px solid purple;
+	margin:10px auto;
+	
+}
+#burger{
+	width: 250px;
+	float:right;
+	border:1px solid purple;
+}
+
+#blueburger{
+	width: 250px;
+	float:right;
+	border:1px solid purple;
+}
+#chopsalad{
+	width: 250px;
+	float:right;
+	border:1px solid purple;;
+	
+}
+#frenchdip{
+	width: 250px;
+	float:right;
+	border:1px solid purple;
+}
+aside {
+    width:340px;
+    padding:0 20px 20px 20px;
+    float:right;
+    border:1px solid purple;
+   }
+
+
+
+.container{
+    clear:both;
+}
+
+.container li {
+    width:300px;
+    list-style-type:none;
+}
+
+.container li:nth-child(1) {
+    float:left;
+    margin-right:20px;
+}
+
+
+container li:nth-child(2) {
+    float:left;
+}
+container li:nth-child(3) {
+    float:right;
+}
+
+figcaption{
+    background:#000;
+    color:#fff;
+    padding:8px;
+    font-style:italic;
+    font-size:.83em;
+}
+
+footer {
+    height:50px;
+    line-height:50px;
+    border-top::1px dotted #666;
+    clear:both;
+}
+
+footer ul {
+    width:590px;
+    margin: 0 auto;
+    
+}
+
+footer li {
+    float:left;
+    color:#GGG;
+    margin:0 10px; 
+    list-style-type:none;
+    text-align:center;
+    }
+
+footer a {
+    color:#666;
+}
+
+
+img{
+    max-width:100%;
+    display:block;
+    
+}
+
+#banner {
+    margin-bottom:1em;
+}
+.background {
+    background:lightblue;
+    padding:20px;
+    font-style:italic;
+    
+}
+
+
+
+
+
+
+
+
+/*++++++TYPOGRAPHY++++*/
+
+
+
+h1{
+    font-size:2.074em;
+     margin-bottom:7px;
+	color: red
+}
+
+h2{
+    font-size:1.728em;
+     margin-bottom:7px;
+}
+    
+h2 + p.background {
+    margin:20px 0 25px 0;
+        }
+
+h3{
+    font-size:1.44em;
+    margin-bottom:7px;
+	
+}
+
+h4{
+    font-size:1.2em;
+     margin-bottom:7px;
+     }
+
+p {
+    font-size:1em;
+    padding-bottom:1.25em;
+}
+
+p + ul {
+    margin:13px 0 15px 30px;
+    padding:0;
+}
+
+p.less-padding:0
